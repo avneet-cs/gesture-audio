@@ -1,0 +1,82 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "GestureAudio/1.0.0": {
+        "dependencies": {
+          "OpenCvSharp4": "4.13.0.20261107",
+          "OpenCvSharp4.Extensions": "4.13.0.20261107",
+          "OpenCvSharp4.runtime.win": "4.13.0.20261107"
+        },
+        "runtime": {
+          "GestureAudio.dll": {}
+        }
+      },
+      "OpenCvSharp4/4.13.0.20261107": {
+        "runtime": {
+          "lib/net8.0/OpenCvSharp.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.Extensions/4.13.0.20261107": {
+        "dependencies": {
+          "OpenCvSharp4": "4.13.0.20261107"
+        },
+        "runtime": {
+          "lib/net8.0/OpenCvSharp.Extensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.13.0.20261107": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg4130_64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2025.12.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestureAudio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenCvSharp4/4.13.0.20261107": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QzWQnOQg7pLYEFqiZuzX0K/UwA1K9OhXmY1X9P4pm6iRFp93UJxLHhU87Q60mGHFM+T4QyBfQr177mUlE2XIIQ==",
+      "path": "opencvsharp4/4.13.0.20261107",
+      "hashPath": "opencvsharp4.4.13.0.20261107.nupkg.sha512"
+    },
+    "OpenCvSharp4.Extensions/4.13.0.20261107": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f8ikzkpFFwT/oCS+x+HSSYsV5KLtWp6bW4ZOCyCCEB2Bh5u5fpmmbehBQn7vuDbZ4vo7aeYAdXORap49VkdS0Q==",
+      "path": "opencvsharp4.extensions/4.13.0.20261107",
+      "hashPath": "opencvsharp4.extensions.4.13.0.20261107.nupkg.sha512"
+    },
+    "OpenCvSharp4.runtime.win/4.13.0.20261107": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-suj3kBH9QX9x/zLvgHgmdudU7/wPbJQInyt2UmnIChgsJQ3x8xyjbFsVKi2hCYyV4J3ENvydgV5jGAcC+oZPVg==",
+      "path": "opencvsharp4.runtime.win/4.13.0.20261107",
+      "hashPath": "opencvsharp4.runtime.win.4.13.0.20261107.nupkg.sha512"
+    }
+  }
+}
